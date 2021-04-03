@@ -1,0 +1,36 @@
+#header{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #header{
+        height: 30vh;
+        width: 100%;
+        background-color: black;
+        margin: 0 auto;
+    }
+  }
+
+
+#header-title{
+    padding: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #header-title{
+        padding: 5rem;
+        font-weight: bolder;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        font-size: 2rem;
+    }
+  }
