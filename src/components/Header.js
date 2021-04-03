@@ -1,16 +1,21 @@
 import React from 'react';
 import './Header.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/bootstrap/dist/js/bootstrap.min.js';
+
+
 function Header() {
 
     function downloadPpt(){
         console.log("UnderDevelopment");
     }
+
+
     return (
         <div id="customNav">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Rakathon 2021 : Team EIS</a>
+                    <a class="navbar-brand" href="#">Rakathon 2021 : Team E.I.S</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -85,6 +90,7 @@ function Header() {
                     </li>
                 </ol>
             </div>
+            <hr></hr>
         </div>
     );
 }
