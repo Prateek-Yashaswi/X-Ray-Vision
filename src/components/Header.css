@@ -1,36 +1,58 @@
-#header{
-    height: 20vh;
-    width: 100%;
-    background-color: black;
+.customNav{
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px) {
-    #header{
-        height: 30vh;
-        width: 100%;
-        background-color: black;
-        margin: 0 auto;
-    }
-  }
-
-
-#header-title{
-    padding: 3.5rem;
+.navbar-brand{
     font-weight: bolder;
-    text-align: center;
-    margin: 0 auto;
-    color: white;
+}
+
+.content{
+    padding: 2rem;
+    text-align: left;
+}
+
+.problem-statement{
+    font-weight: bolder;
     font-size: 2rem;
 }
 
+.content-text{
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.content-text1{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+li{
+    font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 600px) {
-    #header-title{
-        padding: 5rem;
-        font-weight: bolder;
-        text-align: center;
-        margin: 0 auto;
-        color: white;
+    .content-text{
         font-size: 2rem;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .problem-statement{
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    .content-text1{
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-align: left;
+    }
+    li{
+        font-size: 0.9rem;
+        text-align:start;
+    }
+    .problem-statement{
+        font-size: 1.2rem;
+        font-weight: lighter;
     }
   }
