@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../../node_modules/bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/js/bootstrap.min';
 
 
 function Header() {
@@ -12,32 +12,7 @@ function Header() {
 
 
     return (
-        <div id="customNav">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Rakathon 2021 : Team E.I.S</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Theme And Solution</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Main Content</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Developers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Technology Used</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+        <div id="content-body">
             <div className='content'>
                 <span className="content-text1">Problem Statement : Healthcare</span>
                 <hr></hr>
@@ -86,7 +61,7 @@ function Header() {
                         Discussion Forum : The Web App shall include an open-for-all Discussion Forum that Doctors can utilize to consult other Specialists and Patients can use to get suggestions from Doctors.
                     </li>
                     <li>
-                        Follow-up Alalysis : After classifying the disorder, the Web App uses Web Scraping and APIs to provide additional information on that specific abnormality.
+                        Follow-up Analysis : After classifying the disorder, the Web App uses Web Scraping and APIs to provide additional information on that specific abnormality.
                     </li>
                 </ol>
             </div>
