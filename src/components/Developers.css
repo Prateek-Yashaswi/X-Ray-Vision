@@ -1,0 +1,106 @@
+.devs-body{
+    padding: 2rem;
+}
+
+#avatar-prateek{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/prateek.jfif);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatar-sajan{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/sajan.jfif);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatar-sivin{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/sivin.png);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatar-rishav{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/rishav.png);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dev-desc{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.avatar-div{
+    display: inline-block;
+    width: 25%;
+    color: black
+}
+
+#avatar-grp{
+    align-items: center;
+}
+
+@media only screen and (max-width: 1386px) {
+    .avatar-div{
+        display: block;
+        width: 100%;
+        color: black
+    }
+
+    #avatar-prateek{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-image: url(../assets/prateek.jfif);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #avatar-sajan{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-image: url(../assets/sajan.jfif);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #avatar-sivin{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-image: url(../assets/sivin.png);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #avatar-rishav{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-image: url(../assets/rishav.png);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

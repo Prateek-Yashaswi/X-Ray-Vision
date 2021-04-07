@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min';
 function Header() {
 
     function downloadPpt(){
-        console.log("UnderDevelopment");
+        window.open("https://drive.google.com/file/d/1jVU7U54vCE6iXqIkACKMIIsuAt12y5co/view?usp=sharing");
     }
 
 

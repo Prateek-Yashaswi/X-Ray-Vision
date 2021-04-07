@@ -1,7 +1,23 @@
-.customNav{
-    margin: 0 auto;
+#nav-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+   
 }
 
-.navbar-brand{
-    font-weight: bolder;
+.nav-link-text{
+    font-size: 1.5rem;
+    color: white;
 }
+.nav-link-text:hover {
+    color: rgb(192, 192, 192);
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-brand{
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: white;
+       
+    }
+  }

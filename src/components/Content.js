@@ -63,7 +63,7 @@ class Content extends Component {
                     </p>
 
                     <button onClick={this.onFileUpload} className='upload-button btn btn-dark'>
-                        Upload!
+                        Upload !
 				</button>
 
                 </div>
@@ -82,6 +82,26 @@ class Content extends Component {
 
         return (
             <div className="desc">
+                <h1 className="how-to-work">How To Work With Our System</h1>
+                <br></br>
+                <ul>
+                    <li>
+                        Select An Image From Your Computer.
+                    </li>
+                    <li>
+                        Uplaod It To The Server.
+                    </li>
+                    <li>
+                        Our Server Will Consider The Uploaded Image As An Input To Our Model.
+                    </li>
+                    <li>
+                        Our Model Will Process The Image And Generate The Appropriate Output.
+                    </li>
+                    <li>
+                        The Results Are Converted To A PDF File Which Will Be Returned By The Server And Will Be Downloaded Into The Client's System.
+                    </li>
+                </ul>
+                <hr></hr>
                 <h1>
                     X-Ray Vision
 			</h1>
