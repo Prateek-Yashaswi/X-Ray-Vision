@@ -4,10 +4,10 @@
     color: white;
    
 }
-
 .nav-link-text{
     font-size: 1.5rem;
     color: white;
+    padding: 2rem;
 }
 .nav-link-text:hover {
     color: rgb(192, 192, 192);
@@ -17,7 +17,6 @@
     #nav-brand{
         font-weight: bolder;
         font-size: 1.5rem;
-        color: white;
-       
+        color: white;  
     }
   }
