@@ -29,7 +29,7 @@ class App extends Component {
     this.app = firebase.initializeApp(config);
     this.database = this.app.database();
   }
-  
+
   render() {
     return (
       <div className='body'>
@@ -41,7 +41,6 @@ class App extends Component {
           <Route path='/discussion'><ThreadDisplay database={this.database} /></Route>
           <Route component={Error} />
         </Switch>
-
       </div>
     );
   }

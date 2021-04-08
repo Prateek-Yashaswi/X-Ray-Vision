@@ -9,3 +9,15 @@
 .how-to-work{
     text-decoration: underline;
 }
+
+#responseImg{
+    padding: 3rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #responseImg{
+        padding: 0.8rem;
+        width: 100%;
+    }
+  }
