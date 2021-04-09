@@ -15,27 +15,29 @@
     flex-wrap: row wrap;
     justify-content: space-around;
     text-align: center;
+    background-color: aqua;
 }
 
-.t1 {
+.t1, .t0 {
     border-radius: 3%;
     height: fit-content;
     width: 25%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 8rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
     background-color: #1b262c;
     color: #f0f5f9;
     text-align: center;
 }
 
-.t2 {
+.t2, .t3 {
     border-radius: 3%;
     height: fit-content;
     width: 25%;
-    margin-bottom: 60px;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -91,23 +93,35 @@
         flex-direction: column;
     }
 
-    .t1 {
-        margin-top: 50px;
-        height: fit-content;
-        width: 80%;
-    }
-
-    .t2 {
-        margin-top: 10px;
+    .t0 {
+        margin-top: 8rem;
+        margin-bottom: 4rem;
         height: fit-content;
         width: 80%;
     }
 
     .t3 {
-        margin-top: 10px;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+        height: fit-content;
+        width: 80%;
+
+    }
+
+    .t1 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         height: fit-content;
         width: 80%;
     }
+
+    .t2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        height: fit-content;
+        width: 80%;
+    }
+
     .logo-img{
         padding: 1rem;
         width: 100%;
