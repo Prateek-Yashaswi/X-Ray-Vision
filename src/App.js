@@ -11,6 +11,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import firebase from 'firebase/app';
 import 'firebase/database';
 import ThreadDisplay from './components/Discussion/Threaddisplay';
+import Tech from './components/Technologies';
 
 class App extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class App extends Component {
           <Route exact path="/" component={Header} />
           <Route path="/content" component={Content} />
           <Route path='/developers' component={Devs}></Route>
+          <Route path='/technologies' component={Tech}></Route>
           <Route path='/discussion'><ThreadDisplay database={this.database} /></Route>
           <Route component={Error} />
         </Switch>

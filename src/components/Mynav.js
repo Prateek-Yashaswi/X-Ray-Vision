@@ -13,7 +13,7 @@ function Mynav() {
                     <NavLink exact to='/' className='nav-link'><span className="nav-link-text">Home</span></NavLink>
                     <NavLink exact to='/content' className='nav-link'><span className="nav-link-text">X-Ray Vision</span></NavLink>
                     <NavLink exact to='/developers' className='nav-link'><span className="nav-link-text">Developers</span></NavLink>
-                    <NavLink exact to='/developers' className='nav-link'><span className="nav-link-text">Technologies Used</span></NavLink>
+                    <NavLink exact to='/technologies' className='nav-link'><span className="nav-link-text">Technologies Used</span></NavLink>
                     <NavLink exact to='/discussion' className='nav-link'><span className="nav-link-text">Discussion Forum</span></NavLink>
                 </ReactBootStrap.Nav>
             </ReactBootStrap.Navbar.Collapse>
