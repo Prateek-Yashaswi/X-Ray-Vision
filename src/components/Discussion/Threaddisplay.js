@@ -39,7 +39,7 @@ class ThreadDisplay extends Component {
 
   render() {
     return (
-      <div>
+      <div className="body">
         {
           this.state.posts.map((postBody, idx) => {
             return (

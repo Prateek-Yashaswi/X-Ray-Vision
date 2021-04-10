@@ -36,8 +36,9 @@ class Content extends Component {
         formData.append(
             "image",
             this.state.selectedFile,
-            this.state.selectedFile.name,
+        );
 
+        formData.append(
             "name",
             this.state.selectedFile.name,
         );
@@ -47,7 +48,7 @@ class Content extends Component {
 
         // Request made to the backend api
         // Send formData object
-        axios.post("https://testedone.herokuapp.com/maskImage", formData,{
+        axios.post("https://eis-xray.herokuapp.com/maskImage", formData,{
             onUploadProgress: ProgressEvent => {
                 console.log("Upload Progress: " + Math.random((ProgressEvent.loaded/ProgressEvent.total)*100) + "%");
             }

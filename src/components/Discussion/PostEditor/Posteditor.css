@@ -1,6 +1,10 @@
 .post-editor {
     margin: 1em 20%;
   }
+
+  .panel-body-div{
+    font-size: 1.5rem;
+  }
   
   .post-editor-button {
     float: right;

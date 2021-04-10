@@ -1,5 +1,15 @@
 .post-body {
     margin: 1em 20%;
+    border: 1px solid rgba(0, 255, 0, 0.473) ;
+    height: 10vh;
+  }
+
+  .panel{
+    background-color: rgb(169, 248, 169);
+  }
+
+  .panel-body-div{
+    padding: 1em;
   }
   
   @media(max-width: 900px) {
