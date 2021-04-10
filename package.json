@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -11,6 +12,7 @@
     "b64-to-file": "^1.0.4",
     "bootstrap": "^4.6.0",
     "firebase": "^8.3.2",
+    "font-awesome": "^4.7.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",

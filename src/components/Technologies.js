@@ -15,24 +15,27 @@ const Tech = () => {
                     <h1 ><b>TECHNOLOGIES USED</b></h1>
                 </div>
                 <div className="tech-header-text">
-                    <h5>X-Ray Vision is an interactive Web Application
-                    for medical experts and patients to localize and
-                    classify abnormalities in Chest Radiographs using
-                    advanced Deep Learning techniques.
-                    Our model shall serve as an automated platform to
-                    localize and classify 14 types of thoracic abnormalities
-                    and can be used by doctors as a valuable second opinion
-                    for their diagnosis.
-                    Our Web Application shall provide doctors with subsequent
-                    data regarding the analysis, from various research
-                    articles, case studies and so forth, by using
-                    Web Scraping Techniques and APIs.
-                    X-Ray Vision also provides a discussion forum for doctors
-                    and patients alike to exchange information on thoracic
-                    abnormalities.
-                    In the future, X-Ray Vision aism to be a widely used tool
-                    by the medical community.
-                </h5>
+                    <h5>
+                        <b>
+                        X-Ray Vision is an interactive Web Application
+                        for medical experts and patients to localize and
+                        classify abnormalities in Chest Radiographs using
+                        advanced Deep Learning techniques.
+                        Our model shall serve as an automated platform to
+                        localize and classify 14 types of thoracic abnormalities
+                        and can be used by doctors as a valuable second opinion
+                        for their diagnosis.
+                        Our Web Application shall provide doctors with subsequent
+                        data regarding the analysis, from various research
+                        articles, case studies and so forth, by using
+                        Web Scraping Techniques and APIs.
+                        X-Ray Vision also provides a discussion forum for doctors
+                        and patients alike to exchange information on thoracic
+                        abnormalities.
+                        In the future, X-Ray Vision aims to be a widely used tool
+                        by the medical community.
+                        </b>
+                    </h5>
                 </div>
 
             </div>
@@ -60,7 +63,7 @@ const Tech = () => {
                     Database for creating mobile and web applications. It has built-in 
                     features like analytics, authentication, databases, configuration, 
                     file storage, and push messaging. The services are hosted in the cloud 
-                    and are easy to scale with very less effort.
+                    and are easy to scale with very effort.
                     </p>
                 </div>
 

@@ -2,6 +2,7 @@
     text-align: center;
     vertical-align: middle;
     padding: 2rem 6rem;
+    background-color: #25282c5e;
 }
 
 .tech-header1 {
@@ -15,7 +16,7 @@
     flex-wrap: row wrap;
     justify-content: space-around;
     text-align: center;
-    background-color: aqua;
+    background-color: #3a3e47;
 }
 
 .t1, .t0 {
@@ -27,9 +28,10 @@
     align-items: center;
     margin-top: 8rem;
     margin-bottom: 4rem;
-    background-color: #1b262c;
+    background-color: #111114fa;
     color: #f0f5f9;
     text-align: center;
+    box-shadow: 5px 5px 15px #0e131b;
 }
 
 .t2, .t3 {
@@ -41,9 +43,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1b262c;
+    background-color: #111114fa;
     color: #f0f5f9;
     text-align: center;
+    box-shadow: 5px 5px 15px #0e131b;
 }
 
 .tech-header2 {
