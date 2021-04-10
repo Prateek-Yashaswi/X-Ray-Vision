@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+ `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+ `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +29,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+ `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -43,19 +43,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - Clone the repository: 
 
-        git clone https://github.com/SivinX11/CounselBot.git
+        git clone https://github.com/Prateek-Yashaswi/rakathon2021.git
 - Enter The directory: 
 
-        cd CounselBot
-- Set up the Python environment with dependencies:
+        cd rakathon2021
+- Set up the React environment with dependencies:
 
-        pip install -r requirements.txt
-- Run the Python setup:
+        npm install
+        npm install firebase
+        npm install axios
+        npm install --save-dev @iconify/react @iconify-icons/file-icons
+        npm install react-bootstrap bootstrap
+        npm install react-router-dom
+- Launch the React App:
         
-        python setup.py
-- Run the app:
-
-        streamlit run app.py
+        npm start
 - Terminate the program from the terminal:
 
         Ctrl+C
