@@ -6,12 +6,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Description
+To develop an interactive Web Application on React for medical experts and patients to localize and classify abnormalities in Chest Radiographs using advanced Deep Learning techniques like Facebook AI's Detectron2 using PyTorch.
+
+## Implementation
+Our web app will primarily be based on a deep learning model, which uses convolutional neural networks (with transfer learning) and advanced computer vision; Image preprocessing, and augmentation to preprocess chest radiographs and then localize abnormalities, and classify them into 14 different thoracic disorders. To facilitate this model we will make a web app around it, by using the MERN stack(MongoDB, Express, React, Node). The model will be developed using TensorFlow and python programming language. Our Web Application shall provide doctors with subsequent data regarding the analysis, from various research articles, case studies, and so forth, by using Web Scraping Techniques and APIs.
+
+
+## Applications
+
+1. Localization and Classification of Chest Radiograms. Misinterpretation of Chest Radiograms is a frequent cause for Medical Misdiagnosis, even by experts. Existing CAD systems have no specified technique for localizing the thoracic abnormality in the X-Ray, which leads to inaccuracy.
+
+2. Follow-Up Information on Diagnosed Thoracic Abnormality. To provide medical experts with supplementary information on the diagnosed abnormality.
+
+3. Connecting Platform for Doctors and Patients To create an open-for-all platform for everyone to discuss, review and exchange information on the subject of these diseases.
+
+## Available Scripts(React)
 
 In the project directory, you can run:
 
  `npm start`
-
+ 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
