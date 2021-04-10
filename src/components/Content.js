@@ -121,9 +121,6 @@ class Content extends Component {
                     <li>
                         Our Model Will Process The Image And Generate The Appropriate Output.
                     </li>
-                    <li>
-                        The Results Are Converted To A PDF File Which Will Be Returned By The Server And Will Be Downloaded Into The Client's System.
-                    </li>
                 </ul>
                 <hr></hr>
                 <h1>
