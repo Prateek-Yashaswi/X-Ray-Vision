@@ -1,7 +1,8 @@
+# XRAY Vision
+
 <p align="center">
-<img width="500" height="260" src="https://user-images.githubusercontent.com/52810449/114263584-1a7edb00-9a04-11eb-8fe0-aeb0f72a25eb.png">
+<img width="500" height="500" src="https://user-images.githubusercontent.com/52810449/114263704-caecdf00-9a04-11eb-8612-7284f2e749ae.png">
 </p>
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
