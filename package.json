@@ -45,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "@iconify-icons/bi": "^1.1.4",
+    "@iconify-icons/fa-brands": "^1.1.0",
     "@iconify-icons/logos": "^1.1.9",
     "@iconify/react": "^1.1.4"
   }

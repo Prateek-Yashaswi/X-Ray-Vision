@@ -52,16 +52,7 @@ function Header() {
                         Classification : Using Transfer Learning and Convolutional Neural Networks (CNNs) to classify the detected Abnormality into one of 14 Thoracic Disorders.
                     </li>
                     <li>
-                        Expert Recommendations : Patients can utilize this Web App Feature to view and make appointments with oncology and radiology specialists, based on location and speciality.
-                    </li>
-                    <li>
-                        Different Login Portals : The Web App shall have different Login Portals for Doctors and Patients. Doctors can use the model for analysis, while Patients can get recommendations and use the Discussion Forum.
-                    </li>
-                    <li>
                         Discussion Forum : The Web App shall include an open-for-all Discussion Forum that Doctors can utilize to consult other Specialists and Patients can use to get suggestions from Doctors.
-                    </li>
-                    <li>
-                        Follow-up Analysis : After classifying the disorder, the Web App uses Web Scraping and APIs to provide additional information on that specific abnormality.
                     </li>
                 </ol>
             </div>

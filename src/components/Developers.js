@@ -1,7 +1,10 @@
 import React from 'react';
 import './Developers.css';
 import 'font-awesome/css/font-awesome.min.css';
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { Icon, InlineIcon } from '@iconify/react';
+import linkedinIcon from '@iconify-icons/fa-brands/linkedin';
+import instagramIcon from '@iconify-icons/bi/instagram';
+import githubIcon from '@iconify-icons/logos/github-icon';
 
 const Devs = () => {
     return (
@@ -26,9 +29,9 @@ const Devs = () => {
                 </div>
                 <div className="footer">
                 <div className="icons">
-                    <a href="https://www.instagram.com/i_sivin"><i className="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sivin/"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://www.github.com/sivinx11"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/i_sivin"><Icon icon={instagramIcon} className="social-logo"/></a>
+                    <a href="https://www.linkedin.com/in/sivin/"><Icon icon={linkedinIcon} className="social-logo"/></a>
+                    <a href="https://www.github.com/sivinx11"><Icon icon={githubIcon} className="social-logo"/></a>
                 </div>
                 </div>
             </div>
@@ -58,9 +61,9 @@ const Devs = () => {
                 </div>
                 <div className="footer">
                 <div className="icons">
-                    <a href="https://www.instagram.com/no_ifs_ands_o_buts"><i className="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sajan-kumar-kar-04b28b199"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/NatsuD99"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/no_ifs_ands_o_buts"><Icon icon={instagramIcon} className="social-logo"/></a>
+                    <a href="https://www.linkedin.com/in/sajan-kumar-kar-04b28b199"><Icon icon={linkedinIcon} className="social-logo"/></a>
+                    <a href="https://github.com/NatsuD99"><Icon icon={githubIcon} className="social-logo"/></a>
                 </div>
                 </div>
             </div>
@@ -88,9 +91,9 @@ const Devs = () => {
                 </div>
                 <div className="footer">
                 <div className="icons">
-                    <a href="https://www.instagram.com/prateek_yashaswi"><i className="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/mwlite/in/prateek-yashaswi-b35b701a2"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Prateek-Yashaswi"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/prateek_yashaswi"><Icon icon={instagramIcon} className="social-logo"/></a>
+                    <a href="https://www.linkedin.com/mwlite/in/prateek-yashaswi-b35b701a2"><Icon icon={linkedinIcon} className="social-logo"/></a>
+                    <a href="https://github.com/Prateek-Yashaswi"><Icon icon={githubIcon} className="social-logo"/></a>
                 </div>
                 </div>
             </div>
@@ -120,9 +123,9 @@ const Devs = () => {
                 </div>
                 <div className="footer">
                 <div className="icons">
-                    <a href="https://www.instagram.com/antisocial._.extrovert"><i className="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rishav-chowdhury-99490417b"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Rishav-Chowdhury"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/antisocial._.extrovert"><Icon icon={instagramIcon} className="social-logo"/></a>
+                    <a href="https://www.linkedin.com/in/rishav-chowdhury-99490417b"><Icon icon={linkedinIcon} className="social-logo"/></a>
+                    <a href="https://github.com/Rishav-Chowdhury"><Icon icon={githubIcon} className="social-logo"/></a>
                 </div>
                 </div>
             </div>

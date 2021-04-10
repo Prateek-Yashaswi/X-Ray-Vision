@@ -36,7 +36,10 @@ class Content extends Component {
         formData.append(
             "image",
             this.state.selectedFile,
-            this.state.selectedFile.name
+            this.state.selectedFile.name,
+
+            "name",
+            this.state.selectedFile.name,
         );
 
         // Details of the uploaded file
