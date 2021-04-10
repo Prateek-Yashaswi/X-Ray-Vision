@@ -86,7 +86,7 @@ class Content extends Component {
                         Upload !
 				</button>
                 <div>
-                    <img alt="Click Upload To Get The Resultant Image" id="responseImg" src={this.state.Base64}></img>
+                    <img alt="" id="responseImg" src={this.state.Base64}></img>
                 </div>
                 </div>
             );

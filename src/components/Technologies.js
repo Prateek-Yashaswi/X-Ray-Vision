@@ -1,6 +1,6 @@
 import React from 'react';
 import './Technologies.css';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import pytorchIcon from '@iconify-icons/logos/pytorch';
 import reactIcon from '@iconify-icons/logos/react';
 import firebaseIcon from '@iconify-icons/logos/firebase';
@@ -107,7 +107,7 @@ const Tech = () => {
                 </div>
 
                 <div class="t3">
-                    <img src="https://miro.medium.com/max/4000/0*VbMjGBHMC6GnDKUp.png" className='logo-img'/>
+                    <img src="https://miro.medium.com/max/4000/0*VbMjGBHMC6GnDKUp.png" className='logo-img' alt=""/>
                     <h2 className="tech-header2">Detectron</h2>
                     <p className="tech-header3">Detectron2 is Facebook AI Research's next generation software 
                     system that implements state-of-the-art object detection algorithms. It is a ground-up 

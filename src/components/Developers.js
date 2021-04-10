@@ -1,7 +1,7 @@
 import React from 'react';
 import './Developers.css';
 import 'font-awesome/css/font-awesome.min.css';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import linkedinIcon from '@iconify-icons/fa-brands/linkedin';
 import instagramIcon from '@iconify-icons/bi/instagram';
 import githubIcon from '@iconify-icons/logos/github-icon';
